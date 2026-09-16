@@ -8,7 +8,6 @@
 ## Technologies que je souhaite maîtriser
 - JAVA
 - Angular
-- .NET
 
 ## Livrable  
 - url repo : https://github.com/ya12in/-cda-positionnement.git
