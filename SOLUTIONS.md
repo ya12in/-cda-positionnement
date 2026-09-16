@@ -6,8 +6,8 @@
 
 ## Algorithmique
 
-- Exercices réussis: 3.1, 3.2, 3.3, 3.4
-- Exercices non réussis: 3.5,
+- Exercices réussis: 3.1, 3.2, 3.3
+- Exercices non réussis: bonus du 3.4 et 3.5
 - Temps passé: ???
 
 ## JavaScript DOM
