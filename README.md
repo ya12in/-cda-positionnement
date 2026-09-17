@@ -12,6 +12,7 @@
 ## Technologies que je souhaite maîtriser
 
 - JAVA
+- REACT.js
 - Angular
 
 ## Livrable
