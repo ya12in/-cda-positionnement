@@ -1,30 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>todo-list</title>
     <script src="todo.js" defer></script>
-</head>
-<body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+      }
+      header {
+        text-transform: uppercase;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        margin-bottom: 2%;
+      }
+      header input {
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        background-color: #ddd;
+        padding: 5px 10px;
+      }
+      main {
+        display: flex;
+        gap: 50px;
+      }
+      main .sect1 {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
     <header>
-        <h1>Ajouter</h1>
-        <input type="text" class="input-list">
+      <h1>Ajouter</h1>
+      <input
+        type="text"
+        class="input-list"
+        placeholder="Ajouter votre taches..."
+      />
     </header>
 
     <main>
-        <section>
-            <h2>Votre liste</h2>
-            <ul class="ul-list">
+      <section class="sect1">
+        <h2>Votre liste</h2>
+        <ul class="ul-list"></ul>
+      </section>
 
-            </ul>
-        </section>
-
-        <section class="btn-ajout">
-            <button>Ajouter</button>
-        </section>
+      <section class="btn-ajout">
+        <button>Ajouter</button>
+      </section>
     </main>
 
     <footer></footer>
-</body>
+  </body>
 </html>
